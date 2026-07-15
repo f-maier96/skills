@@ -34,10 +34,10 @@ Do not improvise a phase this repo already has a skill for. Match the work to th
 
 ## Non-negotiables (enforced by AGENTS.md — do not re-derive)
 
-- Never work directly on `main`; one branch/worktree per task.
+- Never work directly on `main`; one branch/worktree per task. **Exception:** the `zweites-gehirn` vault works directly on `main` (standing allowance, per `AGENTS.md`).
 - Small, reviewable changes; no mixed commits.
 - Never read, store, commit, or expose secrets.
 - No production deploy, payment, trading, customer email, or social post without explicit go.
-- At session end, update the project handover per the `AGENTS.md` End routine (or `/handoff`).
+- At session end, follow the `AGENTS.md` End routine: update the handover, and **for the vault commit + push to `origin main`** so every agent (Claude Code, Codex, Hermes) starts in sync.
 
 If `AGENTS.md` is missing, stop and ask Franz before proceeding — the shared rules must be loaded first.
